@@ -24,8 +24,7 @@ p {
 }
 img {
   max-height: 700px;
-  background-color: rgb(169, 243, 218);
-  padding: 20px 70px;
+  border-radius: 5px;
   margin: 20px;
 }
 
@@ -47,6 +46,17 @@ img {
   font-size: 24px;
   color: #272142;
 }
+
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+
+.about-section h2 {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+}
+
 .btn-branding {
   background: rgb(6, 154, 139);
   border-radius: 4px;
