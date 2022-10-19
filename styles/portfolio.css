@@ -15,6 +15,18 @@ h1 {
 h2 {
   font-size: 46px;
 }
+.pretty {
+  font-family: "Poppins", sans-serif;
+}
+.pretty::after {
+  content: ""; /* This is necessary for the pseudo element to work. */
+  display: block; /* This will put the pseudo element on its own line. */
+  margin: 0 auto; /* This will center the border. */
+  width: 70%; /* Change this to whatever width you want. */
+  padding-top: 15px; /* This creates some space between the element and the border. */
+  border-bottom: 3px solid black; /* This creates the border. Replace black with whatever color you want. */
+  border-radius: 5px;
+}
 
 p {
   font-family: "Poppins", sans-serif;
@@ -23,8 +35,8 @@ p {
   line-height: 30px;
 }
 img {
-  max-height: 700px;
-  border-radius: 5px;
+  max-height: 650px;
+  border-radius: 10px;
   margin: 20px;
 }
 
@@ -47,14 +59,30 @@ img {
   color: #272142;
 }
 
-.about-section h1 {
+.content h1 {
   font-size: 64px;
   line-height: 80px;
 }
 
-.about-section h2 {
+.content-container h2 {
   font-size: 18px;
   font-family: "Poppins", sans-serif;
+}
+
+.content h3 {
+  font-size: 24px;
+  font-family: "Poppins", sans-serif;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+
+.content {
+  margin: 30px;
+  padding: 0;
+  text-align: center;
+}
+.content p {
+  font-size: 14px;
 }
 
 .btn-branding {
@@ -76,7 +104,8 @@ img {
 }
 
 .project-description {
-  padding: 120px 60px;
+  padding: 0;
+  text-align: center;
 }
 
 @media (max-width: 960px) {
