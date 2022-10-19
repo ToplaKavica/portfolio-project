@@ -108,6 +108,36 @@ img {
   text-align: center;
 }
 
+nav {
+  padding: 20px 0;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  list-style: none;
+  margin-left: 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav li.active a {
+  color: rgb(6, 154, 139);
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: rgb(7, 149, 135);
+  transition: all 150ms ease-in-out;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
