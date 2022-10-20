@@ -92,6 +92,13 @@ img {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 150ms ease-in-out;
+}
+.btn-branding:hover {
+  background: rgb(169, 243, 218);
+  color: rgb(6, 154, 139);
+  border: 2px solid rgb(6, 154, 139);
+  font-weight: 500;
 }
 
 .btn-branding-outline {
@@ -101,6 +108,12 @@ img {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  transition: all 150ms ease-in-out;
+}
+.btn-branding-outline:hover {
+  color: white;
+  background-color: rgb(6, 154, 139);
+  border-color: rgb(7, 149, 135);
 }
 
 .project-description {
