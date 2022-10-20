@@ -138,6 +138,40 @@ nav a:hover {
   transition: all 150ms ease-in-out;
 }
 
+footer {
+  margin: 60px 0;
+  background-color: rgb(169, 243, 218);
+}
+
+footer .email-link {
+  text-decoration: none;
+  color: black;
+  font-size: 24px;
+}
+
+footer .email-link:hover {
+  color: rgb(7, 149, 135);
+  text-decoration: underline;
+  transition: all 150ms ease-in-out;
+}
+
+footer .social-links a {
+  color: rgb(6, 154, 139);
+  margin: 10px 30px;
+  font-size: 40px;
+}
+
+footer .social-links a:hover {
+  color: black;
+  transition: all 150ms ease-in-out;
+}
+.media-link {
+  background-color: rgb(169, 243, 218);
+  width: 250px;
+  padding: 20px 15px;
+  border-radius: 60px;
+}
+
 @media (max-width: 960px) {
   h1 {
     font-size: 44px;
